@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="index.js"></script>
+    <title>UnitConverter</title>
+
+</head>
+<body link="blue" alink="green" vlink="#ffffff">
+    <div class="container">
+        <div class="unitconverter"><p class="mhead">
+            <a href="Index.html" onclick="home()"  > <span style="color: #ffffff;">Unit</span><span style="color: #cec93c;">Converter</span></a>
+
+        </p></div>
+        <div class="category">
+            <button class="cts" onclick="length()"><p  class="cname">Length</p></button>
+            <button class="cts" onclick="mass()"><p class="cname" > Weight</p></button>
+            <button class="cts" onclick="time()"><p class="cname" >Time</p></button>
+            <button class="cts" onclick="area()"><p class="cname"> Area</p></button>
+            <button class="cts" onclick="temp()"><p class="cname">Temperature</p></button>
+        </div>
+        <div class="cbox">
+            <div class="cons">
+                <p>Time</p>
+            </div>
+            <div class="cons1">
+            <select  id="tiinput-type" onscroll="ti()" onclick="ti()">
+                <option value="second">Second</option>
+                <option value="day">Day</option>
+                <option value="minute">Minute</option>
+                <option value="hour">Hour</option>
+                <option value="week">Week</option>
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+            </select>
+            <span class="arrow">&#8651;</span>
+            <select  id="tiresult-type" onscroll="ti()" onclick="ti()">
+                <option value="second">Second</option>
+                <option value="day">Day</option>
+                <option value="minute">Minute</option>
+                <option value="hour">Hour</option>
+                <option value="week">Week</option>
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+            </select>  
+            </div>
+            <div class="cons2">
+            <input type="text" placeholder="0.000000" id="tiinput" oninput="ti()" onclick="ti()">
+            <span>&#8596</span>
+            <input type="text" placeholder="0.000000" id="tiresult" oninput="ti()" onclick="ti()">
+            </div>
+        </div>
+    </div>
+<footer>
+    <div class="footer"><p> A project by M. Surya Teja as apart of Codeclause intern</p></div>
+</footer>
+
+</body>
+</html>

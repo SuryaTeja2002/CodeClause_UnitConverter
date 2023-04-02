@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>UnitConverter</title>
+
+</head>
+<body link="blue" alink="green" vlink="#ffffff">
+    <div class="container">
+        <div class="unitconverter"><p class="mhead">
+            <a href="Index.html" onclick="home()"  > <span style="color: #ffffff;">Unit</span><span style="color: #cec93c;">Converter</span></a>
+
+        </p></div>
+        <div class="category">
+            <button class="cts" onclick="length()"><p  class="cname">Length</p></button>
+            <button class="cts" onclick="mass()"><p class="cname" > Weight</p></button>
+            <button class="cts" onclick="time()"><p class="cname" >Time</p></button>
+            <button class="cts" onclick="area()"><p class="cname"> Area</p></button>
+            <button class="cts" onclick="temp()"><p class="cname">Temperature</p></button>
+        </div>
+        <div class="cbox">
+            <div class="cons">
+                <p>Length</p>
+            </div>
+            <div class="cons1">
+            <select  id="linput-type">
+                <option value="meter">Meter</option>
+                <option value="millimeter">Millimeter</option>
+                <option value="centimeter">Centimeter</option>
+                <option value="kilometer">Kilometer</option>
+                <option value="mile">Mile</option>
+                <option value="yard">Yard</option>
+    
+            </select>
+            <span class="arrow">&#8651;</span>
+            <select  id="lresult-type">
+                <option value="meter">Meter</option>
+                <option value="millimeter">Millimeter</option>  
+                <option value="centimeter">Centimeter</option>
+                <option value="kilometer">Kilometer</option>
+                <option value="mile">Mile</option>
+                <option value="yard">Yard</option>
+            </select>
+            </div>
+            
+            <div class="cons2"> 
+            <input type="text" placeholder="0.00000" id="linput" onscroll="l()" onclick="l()">
+            <span>&#8596</span>
+            <input type="text" placeholder="0.00000" id="lresult">
+        </div> 
+           
+        </div>
+    </div>
+<footer>
+    <div class="footer"><p> A project by M. Surya Teja as apart of Codeclause intern</p></div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
