@@ -1,7 +1,7 @@
 .unitconverter{
     position: absolute;
 width: 1120px;
-height: 80px;
+height: 52px;
 left: calc(50% - 1120px/2);
 top: 0px;
 
@@ -14,9 +14,9 @@ border-radius: 0px 0px 23px 23px;
     /* UnitConverter */
 position: absolute;
 width: 279px;
-height: 48px;
+/* height: 48px; */
 left: calc(50% - 279px/2 + 0.5px);
-top: -23px;
+top: -40px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -32,9 +32,10 @@ color: #EEF0EC;
 flex-direction: column;
  align-items: flex-start; 
  /* padding: 16px 32px; */
- padding-top: 15rem;
+ padding-top: 11.5rem;
  padding-left: 8rem;
 gap: 18px; 
+height: 485px;
 /*
  width: 266px; 
  top: 80rem;
@@ -85,10 +86,10 @@ color: #FFFFFF;
 
 .cbox{
     position: absolute;
-width: 1080px;
-height: 688px;
-left: 600px; 
-top: 160px;
+width: 900px;
+height: 560px;
+left: 530px; 
+top: 100px;
 
 background: #DCF4C4;
 box-shadow: 2px 4px 69px rgba(0, 0, 0, 0.3);
@@ -98,11 +99,11 @@ border-radius: 100px 100px 100px 100px;
     display: flex;
     justify-content:center;
 /* align-items:; */
-padding-top: 40px;
+padding-top: 0px;
 color:#4e6846;
 font-size: 60px;
 border-bottom: 2px solid #4e6846;
-border-radius: 3px;
+/* border-radius: 3px; */
 }
 .cons2{
     display: flex;
@@ -131,16 +132,17 @@ gap:60px;
     width: 24%;
 	border: 1px solid #1293de;
 	background: #ffffff;
-	font-size: 24px;
+	font-size: 22px;
 	padding: 14px 10px;
-	font-weight: bold;
+	font-weight: 620;
 }
 #linput,#lresult,#tinput,#tresult,#tiinput,#tiresult,#minput,#mresult,#ainput,#aresult{
-    width: 44%;
+    width: 36%;
+    /* height:25px; */
     color: #000000;
 	border: 1px solid #1293de;
 	background: #ffffff;
-	font-size: 25px;
+	font-size: 22px;
 	padding: 14px 10px;
 	font-weight: bold;
 	margin-bottom: 16px;
@@ -186,9 +188,9 @@ line-height: 36px;
 .footer{
     position: absolute;
 width: 450px;
-height: 12px;
-left: 827px; 
-bottom: 24px;
+/* height: 12px; */
+left: 627px; 
+/* bottom: 24px; */
 
 font-family: 'Inter';
 font-style: normal;
