@@ -185,7 +185,7 @@ line-height: 36px;
 
 .footer{
     position: absolute;
-width: 270px;
+width: 450px;
 height: 12px;
 left: 827px; 
 bottom: 24px;
@@ -197,4 +197,14 @@ font-size: 10px;
 line-height: 12px;
 
 color: #92B089;
+}
+
+a.linkedin{
+    color: #92B089;
+}
+a.linkedin:visited{
+    color: #92B089;
+}
+a.linkedin::before{
+    color: #92B089;
 }
